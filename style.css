@@ -6,6 +6,10 @@
     line-height: 1;
 }
 
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
 :root {
     --plain-font: 'Outfit', sans-serif;
     --stylish-font: 'Young serif', sans-serif;
@@ -32,6 +36,13 @@
     line-height: 1.6;
     font-weight: 500;
     font-family: var(--plain-font);
+}
+
+.section {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
 }
 
 .container {
